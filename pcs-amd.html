@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light" data-platform="amd">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipos Prearmados AMD Ryzen · Decsatech</title>
+    <meta name="description" content="Explora presupuestos y configuraciones prearmadas de PC con procesadores AMD Ryzen. Rendimiento corporativo, oficina y gaming con garantía oficial de Decsatech.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <div class="app-shell">
+        <!-- SIDEBAR -->
+        <aside class="sidebar" aria-label="Navegación principal">
+            <a href="https://www.decsatech.com/" class="sidebar-brand">
+                <img src="LOGO_2.png" alt="Logo Decsatech" class="sidebar-logo-img">
+                <div class="brand-text">
+                    <span class="brand-name">Decsatech</span>
+                    <span class="brand-scope">Hardware & Empresas</span>
+                </div>
+            </a>
+
+            <div class="nav-group-label">Cotizador y equipos</div>
+            <nav class="sidebar-nav">
+                <a href="index.html" class="nav-item">
+                    <i class="ph ph-sliders-horizontal"></i>
+                    <span>Armador a medida</span>
+                </a>
+                <a href="pcs-amd.html" class="nav-item active" aria-current="page">
+                    <i class="ph ph-cpu"></i>
+                    <span>Equipos AMD</span>
+                </a>
+                <a href="pcs-intel.html" class="nav-item">
+                    <i class="ph ph-cpu"></i>
+                    <span>Equipos Intel</span>
+                </a>
+            </nav>
+
+            <div class="nav-group-label">Sitio oficial</div>
+            <nav class="sidebar-nav">
+                <a href="https://www.decsatech.com/" target="_blank" rel="noopener" class="nav-item">
+                    <i class="ph ph-storefront"></i>
+                    <span>Tienda decsatech.com</span>
+                </a>
+                <a href="https://www.decsatech.com/about/" target="_blank" rel="noopener" class="nav-item">
+                    <i class="ph ph-buildings"></i>
+                    <span>Quiénes somos</span>
+                </a>
+                <a href="https://wa.me/5491131184780" target="_blank" rel="noopener" class="nav-item">
+                    <i class="ph ph-whatsapp-logo"></i>
+                    <span>Atención WhatsApp</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="sidebar-location">
+                    <span class="sidebar-location-title">
+                        <i class="ph ph-map-pin"></i> Palermo, Buenos Aires
+                    </span>
+                    <span class="sidebar-location-desc">
+                        Factura A y B · Garantía escrita de 12 meses · Envíos a todo el país.
+                    </span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- MAIN FRAME COLUMN -->
+        <div class="shell-main">
+            <!-- TOP BAR -->
+            <header class="topbar">
+                <div class="topbar-left">
+                    <nav class="breadcrumb" aria-label="Ruta de navegación">
+                        <a href="https://www.decsatech.com/">decsatech.com</a>
+                        <span class="breadcrumb-sep">/</span>
+                        <span class="breadcrumb-current">Equipos AMD Ryzen</span>
+                    </nav>
+                </div>
+                <div class="topbar-right">
+                    <a href="https://www.decsatech.com/" target="_blank" rel="noopener" class="store-link-pill">
+                        <span>Ir a la tienda</span>
+                        <i class="ph ph-arrow-up-right"></i>
+                    </a>
+                    <div class="theme-toggle" role="group" aria-label="Selector de tema">
+                        <span class="theme-toggle-label">Tema</span>
+                        <button id="btn-light-theme" class="theme-btn active" type="button" title="Modo claro" aria-label="Modo claro">
+                            <i class="ph-fill ph-sun"></i>
+                        </button>
+                        <button id="btn-dark-theme" class="theme-btn" type="button" title="Modo oscuro" aria-label="Modo oscuro">
+                            <i class="ph-fill ph-moon"></i>
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- MOBILE QUICK NAV -->
+            <nav class="mobile-nav-strip" aria-label="Navegación rápida móvil">
+                <a href="index.html" class="mobile-nav-link">
+                    <i class="ph ph-sliders-horizontal"></i> Armador a medida
+                </a>
+                <a href="pcs-amd.html" class="mobile-nav-link active">
+                    <i class="ph ph-cpu"></i> Equipos AMD
+                </a>
+                <a href="pcs-intel.html" class="mobile-nav-link">
+                    <i class="ph ph-cpu"></i> Equipos Intel
+                </a>
+                <a href="https://www.decsatech.com/" target="_blank" rel="noopener" class="mobile-nav-link">
+                    <i class="ph ph-storefront"></i> decsatech.com
+                </a>
+            </nav>
+
+            <!-- INSET WHITE WORK SHEET -->
+            <div class="work-sheet">
+                <div class="sheet-container">
+                    <div class="title-row">
+                        <div class="title-block">
+                            <h1>Presupuestos base con procesadores AMD</h1>
+                            <p class="sub">Configuraciones recomendadas listas para personalizar en el armador con precios actualizados desde nuestro stock.</p>
+                        </div>
+                        <div class="title-actions">
+                            <span class="pill pos">Plataformas AM4 y AM5</span>
+                        </div>
+                    </div>
+
+                    <main class="configurator-main">
+                        <section class="pc-grid" id="pc-list-container" aria-label="Listado de equipos AMD">
+                            <div class="panel">
+                                <p class="empty-summary">Cargando configuraciones de AMD...</p>
+                            </div>
+                        </section>
+                    </main>
+
+                    <footer class="developer-credit">
+                        <span>Micrositio oficial de <a href="https://www.decsatech.com" target="_blank" rel="noopener">Decsatech</a> · Palermo, Buenos Aires</span>
+                        <span>Desarrollado por <a href="https://www.juanmartinbarrientos.com" target="_blank" rel="noopener">JMB</a></span>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="xlsx.full.min.js"></script>
+    <script src="presupuestos.js"></script>
+</body>
+</html>
